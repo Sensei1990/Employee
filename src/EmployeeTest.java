@@ -1,6 +1,6 @@
 import java.io.*;
 public class EmployeeTest {
-    public static void main(String [] args){
+    public static void main(String[] args){
         Employee empOne = new Employee("Don Jon");
         Employee empTwo = new Employee("Sarah James");
 
