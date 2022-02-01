@@ -23,4 +23,11 @@ public class Employee {
         System.out.println("Designation : " + designation);
         System.out.println("Salary is : " + salary);
     }
+    public boolean isOlderThan(Employee myEmployee){
+        if(this.age > myEmployee.age){
+        return true;
+        }
+        return false;
+    }
 }
+
